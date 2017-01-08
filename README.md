@@ -7,6 +7,12 @@ npm install --save-dev dunkin
 ```
 
 ## Getting Started
+The `DunkinClient` class takes an optional single argument `mongoUrl`.
+`mongoUrl` should be the fully qualified url to a running `mongod` server.
+If this argument is left out it will default to `mongodb://localhost:27017/sandbox`.
+
+See example usage below:
+
 ```javascript
 const DunkinClient = require('../../lib').DunkinClient;
 const dunkin = new DunkinClient();
