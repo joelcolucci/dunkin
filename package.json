@@ -1,0 +1,38 @@
+{
+  "name": "dunkin",
+  "version": "0.1.0",
+  "description": "Seed MongoDB collections for integration testing",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha 'test/spec/dunkin.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelcolucci/dunkin.git"
+  },
+  "keywords": [
+    "integration",
+    "testing",
+    "seed",
+    "mongo",
+    "node"
+  ],
+  "author": "Joel Colucci <joelcolucci@gmail.com> (https://www.joelcolucci.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelcolucci/dunkin/issues"
+  },
+  "homepage": "https://github.com/joelcolucci/dunkin#readme",
+  "dependencies": {
+    "mongodb": "^2.2.19"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.0",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.2.0"
+  }
+}
