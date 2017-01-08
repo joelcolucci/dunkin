@@ -27,7 +27,7 @@ dunkin.seedCollection('posts', mockModel, numberToCreate);
 // Run your tests!
 
 // After tests Empty MongoDB collection
-dunkin.emptyCollection('posts);
+dunkin.emptyCollection('posts');
 ```
 
 ## Random Content Generation
